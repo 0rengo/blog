@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog {% block title %}{% endblock %}</title>
+</head>
+	<body>
+		<h1>Grupo Python</h1>
+		<h1>O melhor grupo de estudos de Santa Maria</h1>
+		<hr>
+			{% include 'postagem/_menu.html' %}
+		<hr>
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>

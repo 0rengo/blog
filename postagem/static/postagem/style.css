@@ -1,0 +1,371 @@
+/* --------------------------------------------------
+CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
+-------------------------------------------------- */
+
+/* CONTAINER */
+
+		#container {
+			width: 750px;
+			margin: 0 auto;
+			font-family: Lucida_Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+			font-size: 11px;
+			line-height: 1.6em;
+			color: #666;
+			background-color: #FFF;
+		}
+		
+/* GENERAL MOJO AND MULA */
+		
+		h1 {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 32px;
+			color: #CC6633;
+			margin-bottom: 25px;
+			background-color: #FFF;
+		}
+		
+		h2 {
+			color: #666666;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+
+		h5 {
+			color: #666666;
+			margin-top: 5px;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+		
+		a {
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color:#CC6714;
+			background-color: #F5F5F5;
+		}
+
+		
+		form {
+			float:right;
+			margin-top: -45px;
+			font-size: 9px;
+		}
+		
+		input {
+			background-color: #FFF;
+			color: #999999;
+			border: 1px solid #CCC;
+			font-size: 11px;
+			padding: 3px;
+		}
+		
+		.button {
+			padding: 2px;
+		}
+
+/*		.esp {
+			 line-height: 200%;
+		}		
+*/
+
+/* HEADER ELEMENTS */
+
+		#header {
+			border-bottom: 4px solid #CCC; /* #948979; #575352  */
+			padding-top: 1px;
+			padding-bottom: 0px;
+			clear: both;
+			margin-bottom: 10px;
+			margin-top: -5px;
+		}
+		
+
+		/* the slogan */
+		#header p { 
+			margin-top: -20px;
+			margin-left: 30px;
+			color: #999999;
+		}
+
+/* NAVIGATION ELEMENTS */
+
+		#navigation ul {
+			margin-left: 0;
+			padding-left: 0;
+			list-style-type: none;
+			float: left;
+			width: 140px;
+/*  */
+			margin-top: 0px;
+			padding-bottom: 10px;
+/*  */
+			left: auto;
+		}
+
+		#navigation a {
+			display: block;
+			padding: 5px;
+			width: 140px;
+			border-bottom: 1px solid #CCC;
+			text-indent: 0px;
+		}
+
+		#navigation a:link, #navlist a:visited {
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		#navigation a:hover {
+			background: #000000 url(arrow.gif) 98% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}
+
+
+		#navigation a.recuo {
+			display: block;
+			padding: 5px;
+			width: 140px;
+			border-bottom: 1px solid #CCC;
+			text-indent: 12px;
+		}
+
+
+/* THE SMALL BOX BELOW NAV */
+
+		#navigation p {
+			margin-top: 20px;
+			padding: 2px;
+                  font-size: 11px;
+			border-bottom: 1px dotted #CCC;
+			border-top: 1px dotted #CCC;
+		}
+
+		#navigation a:hover.lingua {
+			background: #000000 url() 98% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}
+
+		#navigation a.lingua {
+			display: block;
+			padding: 0px;
+			width: 140px;
+			background-color: #FFF;
+			color:#666;
+			border-bottom: 0px solid #CCC;
+		}
+
+/*		#navigation a:link.lingua, #navlistb a:visited {
+			color:#666;
+			text-decoration: none;
+		}
+*/
+
+		
+/* Menu disciplinas */
+
+            #disciplinas {
+			display: block;
+			width: 560px;
+			margin-left: 180px;
+			margin-right: 0px;
+			margin-bottom: 10px;
+			padding-bottom: 10px;
+/*			padding-top: 10px;*/
+			text-align: justify;
+		}
+
+		#disciplinas a {
+			font-weight: normal;
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		#disciplinas a:hover {
+			color:#CC6714;
+			background-color: #FFFFFF;
+		}
+
+
+		#disciplinas table {
+			border-collapse:separate;
+		}
+
+		#disciplinas th {
+			border-top: dotted 2px;
+			border-bottom: dotted 2px;
+			border-right: dotted 2px;
+			border-left: dotted 2px;
+			margin-left: 5px;
+		}
+
+		#disciplinas h3 {
+			color: #666666;
+			font-size: 15px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+			margin-top: 0px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border-bottom: 1px solid #CCC;   /* #DDDDDD; A faint grey line below the text */
+		}
+
+		#disciplinas h4 {
+			color: #666666;
+			font-size: 11px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+			margin-top: -15px;
+			margin-bottom: 5px;
+			padding-bottom: 4px;
+			padding-top: 3px;
+			border-bottom: 1px solid #CCC;  /* #DDDDDD; A faint grey line below the text */
+		}
+
+		#disciplinas h6 {
+			color: #666666;
+			font-size: 11px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+			margin-top: -15px;
+			margin-bottom: 5px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			border-bottom: 1px solid #CCC;   /* #DDDDDD; A faint grey line below the text */
+		}
+
+
+		#disciplinas p {
+			padding-bottom: 15px;
+			margin-top: -8px;
+			border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+		}
+
+/* CONTENT ELEMENTS */
+
+		#content {
+			width: 360px;
+			margin-left: 180px;
+			margin-right: 200px;
+                  text-align: justify;
+		}
+		
+            #contentA {
+			width: 550px;
+			margin-left: 180px;
+			margin-right: 0px;
+                  text-align: justify;
+		}
+
+		#content a {
+			font-weight: normal;
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		#content a:hover {
+			color:#CC6714;
+			background-color: #FFFFFF;
+		}
+
+		#contentA a {
+			font-weight: normal;
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		#contentA a:hover {
+			color:#CC6714;
+			background-color: #FFFFFF;
+		}
+
+		#content th {
+			border-bottom: dotted 1px;
+		}
+		
+		#content p {
+			padding-bottom: 15px;
+			margin-top: -8px;
+			border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+		}
+
+
+
+/* SIDEBAR ELEMENTS */
+
+		#sidebar {
+			float: right;
+			width: 175px;
+		}
+		
+		#sidebar p {
+			padding-bottom: 15px;
+			margin-top: -8px;
+			border-bottom: 1px solid #DDDDDD;
+		}
+
+		#sidebar a:hover {
+			color:#CC6714;
+			background-color: #FFFFFF;
+		}
+
+/* FOOTER ELEMENTS */
+
+		#footer {
+			margin-top: 10px;
+			clear: both;
+			background-color:#CCC; /*  #575352  */
+			padding: 0px 0px 0px 10px;
+		}
+		
+		#footer p {
+			color:#89817f;
+			padding: 0px 1px 1px 0px;
+		}
+		
+		#footer p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#footer p a:hover {
+			color: #FFFFFF;
+			background-color:#CCC; /*  #575352  */
+		}
+
+
+
+/* ELEMENTOS do RODAPE */
+
+		#rodape {
+			margin-top: 10px;
+			clear: both;
+			background-color:#CCC; /*  #575352  */
+			padding: 0px 0px 0px 10px;
+		}
+		
+		#rodape p {
+			color:#89817f;
+			padding: 0px 1px 1px 0px;
+		}
+		
+		#rodape p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#rodape p a:hover {
+			color: #FFFFFF;
+			background-color:#CCC; /*  #575352  */
+		}
+
+
+
+		/* And they lived happily ever after. The End. */

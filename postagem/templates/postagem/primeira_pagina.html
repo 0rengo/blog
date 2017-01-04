@@ -1,0 +1,26 @@
+{% extends 'postagem/base.html' %}
+
+{% block title %}
+Primeira página
+{% endblock %}
+
+{% block content %}	
+	<hr>
+	<p>Bem-vindo {{ nome }}</p>
+	<p>{{ metodo }}</p>
+
+	<hr>
+
+	<ul>
+	{% for aluno in alunos %}
+	<li>
+		{{ aluno }}
+		{% ifequal aluno 'Maria' %}
+			É bonita!!
+		{% endifequal %}
+	</li>
+	{% empty %}
+	<li>Não existem alunos cadastrados nesta turma!!</li>
+	{% endfor %}
+	</ul>
+{% endblock %}
